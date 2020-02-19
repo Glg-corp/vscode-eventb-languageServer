@@ -1,17 +1,20 @@
 {
-	"name": "Eventb-Intellisense",
+	"name": "eventb-intellisense",
 	"displayName": "Event-B Advanced Language Support",
-	"description": "An advance support for event-b. Basic support extension is advised.",
+	"description": "An advanced support for Event-B. Basic support extension is required.",
 	"author": "GlgCorp",
 	"icon": "icon.jpg",
 	"license": "MIT",
 	"version": "0.2.0",
+	"extensionDependencies": ["GlgCorp.eventb"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Glg-corp/vscode-eventb-languageServer"
 	},
 	"publisher": "GlgCorp",
-	"categories": [],
+	"categories": [
+		"Programming Languages"
+	],
 	"keywords": [
 		"multi-root ready"
 	],
